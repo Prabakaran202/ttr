@@ -21,4 +21,3 @@ void init_lexer(const char *source_code);
 Token get_next_token();
 
 #endif
-.
