@@ -3,7 +3,6 @@
 
 #include "parser.h"
 
-// AST-ஐ தமிழி கோடாக மாற்றுவதற்கான ஃபங்ஷன்
-void generate_tamizhi_code(ASTNode node, const char *output_filename);
+void generate_tamizhi_code(ASTProgram program, const char *output_filename);
 
 #endif
