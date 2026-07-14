@@ -6,7 +6,10 @@ typedef enum {
     TOKEN_PRINT,      // print
     TOKEN_STRING,     // "..." அல்லது '...'
     TOKEN_LPAREN,     // (
-    TOKEN_RPAREN,     // )
+    TOKEN_RPAREN,
+    TOKEN_IDENTIFIER, // name, age (புதியது)
+    TOKEN_ASSIGN,     // = (புதியது)
+    TOKEN_NUMBER,       // )
     TOKEN_EOF         // End of File
 } TokenType;
 
