@@ -7,4 +7,3 @@
 void generate_tamizhi_code(ASTNode node, const char *output_filename);
 
 #endif
-.
