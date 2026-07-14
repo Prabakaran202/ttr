@@ -78,4 +78,3 @@ Token get_next_token() {
     token.type = TOKEN_EOF; 
     return token;
 }
-.
